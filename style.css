@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.home {
+    text-align: center;
+    height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://pbs.twimg.com/media/EU7rJmMXQAEBFnf.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.home h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+.home h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.about {
+    height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.about-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-text h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.about-text p {
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.about img {
+    width: 20%;
+}
+
+.privacy {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: url(https://complainaboutyourgame.com/wp-content/uploads/2022/04/CONFIRMED-COMPANIES-USING-THE-NEW-UNREAL-ENGINE-5-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(px);
+    z-index: -1;
+}
+
+.content {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 5rem 15rem;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.377);
+}
+
+.content h4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content button {
+    margin-top: 1.3rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #000;
+    background: rgb(126, 55, 85);
+    background: -moz-linear-gradient(90deg, rgba(126, 55, 85, 1) 0%, rgba(91, 75, 126, 1) 35%, rgba(39, 81, 172, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(126, 55, 85, 1) 0%, rgba(91, 75, 126, 1) 35%, rgba(39, 81, 172, 1) 100%);
+    background: linear-gradient(90deg, rgba(126, 55, 85, 1) 0%, rgba(91, 75, 126, 1) 35%, rgba(39, 81, 172, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7e3755", endColorstr="#2751ac", GradientType=1);
+    border: none;
+    color: #fff;
+    padding: 1.2rem 2.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 10px 4px rgba(0, 0, 0, 0.247);
+    transition: 650ms ease;
+}
+
+.content button:hover {
+    padding: 1.2rem 5rem;
+}
+
+.line-cont {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.line {
+    width: 105%;
+    height: 6px;
+    background-color: #000;
+}
+
+@media screen and (max-width: 940px) {
+    .home h1 {
+        font-size: 10vw;
+    }
+
+    .home h2 {
+        font-size: 4vw;
+    }    
+}
+
+@media screen and (max-width: 1520px) {
+    .about-text {
+        width: 60%;
+    } 
+}
+
+@media screen and (max-width: 900px) {
+    .about {
+        flex-direction: column;
+    }
+    .about-text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .about img {
+        width: 30vw;
+    }
+    .content {
+        padding: 2rem 5vw;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .about img {
+        width: 50vw;
+    }
+
+    .about-text {
+        width: 95%;
+    }
+}
