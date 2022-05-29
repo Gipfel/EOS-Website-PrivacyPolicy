@@ -61,7 +61,26 @@
     color: #000;
 }
 
+.about-text ul li {
+    font-size: 1.6rem;
+    color: #000;
+    margin-left: 25px;
+}
+
 .about img {
+    width: 20%;
+}
+
+.project {
+    height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.project img {
     width: 20%;
 }
 
