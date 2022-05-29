@@ -181,7 +181,7 @@
 }
 
 @media screen and (max-width: 900px) {
-    .about {
+    .about, .project {
         flex-direction: column;
     }
     .about-text {
@@ -190,7 +190,7 @@
 }
 
 @media screen and (max-width: 860px) {
-    .about img {
+    .about img, .project img {
         width: 30vw;
     }
     .content {
@@ -199,7 +199,7 @@
 }
 
 @media screen and (max-width: 570px) {
-    .about img {
+    .about img, .project img {
         width: 50vw;
     }
 
