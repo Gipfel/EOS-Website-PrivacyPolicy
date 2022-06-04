@@ -13,11 +13,78 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(https://pbs.twimg.com/media/EU7rJmMXQAEBFnf.jpg);
+    background-image: url(./PlattformX-Banner.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.pic1 {
+    text-align: center;
+    height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(./bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 4rem;
+}
+
+.pic1 h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+.pic2 {
+    text-align: center;
+    height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(./procedualGeneration.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 4rem;
+}
+
+.pic2 h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+.pic3 {
+    text-align: center;
+    height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(./multiplayer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 4rem;
+}
+
+.pic3 h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
 }
 
 .home h1 {
@@ -68,7 +135,9 @@
 }
 
 .about img {
-    width: 20%;
+    width: 15%;
+    border-radius: 17px;
+    box-shadow: 0 0 15px #000;
 }
 
 .project {
